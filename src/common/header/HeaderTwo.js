@@ -39,9 +39,9 @@ const HeaderTwo = () => {
                     <div className="container-fluid">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/Ricr.png"
-                                dimage="/images/Ricr.png"
-                                simage="/images/Ricr.png"
+                                <Logo limage="/images/ricr.png"
+                                dimage="/images/ricr.png"
+                                simage="/images/ricr.png"
                                 />
                             </div>
                             <div className="header-main-nav">

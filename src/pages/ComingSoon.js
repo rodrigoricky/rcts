@@ -50,8 +50,8 @@ const ComingSoon = () => {
                         <div className="row align-items-center justify-content-center">
                         <div className="col-12">
                             <div className="site-logo">
-                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-light"><img src={process.env.PUBLIC_URL + "/images/Ricr.png"} alt="Logo" /></Link>
-                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-dark"><img src={process.env.PUBLIC_URL + "/images/Ricr.png"} alt="Logo" /></Link>
+                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-light"><img src={process.env.PUBLIC_URL + "/images/ricr.png"} alt="Logo" /></Link>
+                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-dark"><img src={process.env.PUBLIC_URL + "/images/ricr.png"} alt="Logo" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-8">
