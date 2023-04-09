@@ -41,7 +41,6 @@ const App = () => {
 				{/* Blogs */}
 				<Route path={process.env.PUBLIC_URL + "/blog-grid/"} element={<BlogGridView />}/>
 				<Route path={process.env.PUBLIC_URL + "/category/:slug"} element={<BlogCategory />}/>
-				<Route path={process.env.PUBLIC_URL + "/archive/:slug"} element={<BlogArchive />}/>
 				<Route path={process.env.PUBLIC_URL + "/blog-details/:id"} element={<BlogDetails />}/>
 
 				{/* Service */}
@@ -54,7 +53,6 @@ const App = () => {
 
 				{/* Pages  */}
 				<Route path={process.env.PUBLIC_URL + "/about-us"} element={<AboutUs />}/>
-				<Route path={process.env.PUBLIC_URL + "/our-clients"} element={<OurClients />}/>
 			{/*	<Route path={process.env.PUBLIC_URL + "/case-study"} element={<CaseStudy />}/>
 				<Route path={process.env.PUBLIC_URL + "/case-details/:slug"} element={<CaseDetails />}/>
 				<Route path={process.env.PUBLIC_URL + "/testimonials"} element={<Testimonials />}/>*/}
