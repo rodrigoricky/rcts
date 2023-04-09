@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Standard",
+        "subtitle": "Good for scalable startups",
+        "yprice": "₱60,000",
+        "facility": [
+            "Both Platforms (iOS and Android)",
+            "Domain Registration and Hosting Included",
+            "Comprehensive Functionality Testing",
+            "Quality User Interface/User Experience (UI/UX) Design",
+            "30-day Bug Fixing Period"
+        ]
+    },
+    {
+        "title": "Premium",
+        "subtitle": "Best for large scale businesses", 
+        "yprice": "₱100,000",
+        "facility": [
+            "Both Platforms (iOS and Android)",
+            "Domain Registration and Hosting Included",
+            "Priority Support and Communication",
+            "Extensive Functionality Testing",
+            "Advanced User Interface/User Experience (UI/UX) Design",
+            "60-day Bug Fixing Period"
+        ]
+    }
+]

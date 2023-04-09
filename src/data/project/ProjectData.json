@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "image": "/images/project/untitled-5.png",
+        "title": "Business and Productivity",
+        "category": ["Manage daily business operations"],
+        "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."],
+        "blog": [
+            "<p>Technology's rise has revolutionized how businesses operate in today's digital age. In particular, online businesses have benefitted dramatically from technological advancements. Technology has become essential for online businesses to succeed from marketing strategies to customer service.</p>", 
+            "<p>One of the most significant ways technology has impacted online businesses is through e-commerce platforms. Online marketplaces such as Amazon, eBay, and Shopify have made it easier for companies to reach a global audience, sell products and services, and manage inventory. These platforms offer features such as payment gateways, order management systems, and shipping solutions, which can save time and reduce business costs.</p>", 
+            "<p> Another significant way technology has impacted online businesses is through digital platforms such as Twitter, Instagram, or Facebook, which provide businesses with a powerful marketing tool to reach their target audience, build brand awareness, and engage with customers. These platforms offer features such as paid advertising, analytics, and social listening tools that can help businesses optimize their social media strategy.</p>",
+            "<p>Furthermore, technology has made it easier for businesses to provide excellent customer service. Customer Relationship Management (CRM) software helps businesses manage customer interactions, track leads, and automate sales processes. This allows companies to understand their customers' needs better, personalize their interactions, and improve customer retention.</p>",
+            "<p>In conclusion, apps, software, and websites have become essential tools for businesses to optimize operations and reach a wider audience. By utilizing these tools, companies can streamline processes, improve productivity, and enhance customer engagement. As technology continues to evolve, businesses will continue to utilize these tools to stay ahead of the competition and succeed in the digital age. </p>",
+            "<h3 class='title mb--30'>Reach a wider target audience through technological tools</h3>",
+            "<p>Having a strong online presence is essential for any business to grow. Whether you're a small startup or a large enterprise, having a well-designed and functional website or app can make all the difference. This is where Ricreates comes in – a company offering various services to help businesses thrive in the digital world.</p>",
+            "<p>At Ricreates, we specialize in a range of services, including android app development, iOS app development, hybrid app development, software development, managed IT services, and web development. Our team of experts is passionate about helping businesses reach their full potential by providing high-quality and cost-effective solutions.</p>",
+            "<h3 class='title mb--30'>Make your business grow</h3>",
+            "<p>At Ricreates, we take pride in providing our clients with high-quality services at affordable prices. We believe every business deserves a strong online presence, and we're here to help you achieve that. Contact us today to learn more about our services and how we can help your business thrive in the digital world.</p>"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "/images/project/Ecommerce.png",
+        "title": "eCommerce Solutions",
+        "category": ["Sell products and services online"],
+        "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+    },
+    {
+        "id": 3,
+        "image": "/images/project/messagechat.png",
+        "title": "Messaging and Chat",
+        "category": ["Send messages across various devices real-time"],
+        "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+    },
+    {
+        "id": 4,
+        "image": "/images/project/billling.png",
+        "title": "Billing System",
+        "category": ["Automate reading-billing-collecting processes "],
+        "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+    },
+    {
+        "id": 5,
+        "image": "/images/project/Productm.png",
+        "title": "Product Management",
+        "category": ["Track orders and inventory"],
+        "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+    },
+    {
+        "id": 6,
+        "image": "/images/project/delivery.png",
+        "title": "Transportation and Delivery",
+        "category": ["Manage fleet and transportaton operations"],
+        "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+        "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
+    }
+    
+]

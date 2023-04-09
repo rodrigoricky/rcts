@@ -1,0 +1,31 @@
+[
+
+    {
+        "id": 1,
+        "thumb": "/images/others/proces1.png",
+        "subtitle": "Step One",
+        "title": "Plan",
+        "paragraph": "Before delivering a product to a client, we start by identifying their needs, gathering requirements, and defining the scope of the project. During this stage, we schedule meetings with the client to discuss their requirements, create a project timeline, assign tasks, and set milestones."
+    },
+    {
+        "id": 2,
+        "thumb": "/images/others/process2.png",
+        "subtitle": "Step Two",
+        "title": "Build",
+        "paragraph": "Once we have a solid plan in place, we move on to building the product. This involves designing the user interface, writing code, and integrating various components to create a cohesive product."
+    },
+    {
+        "id": 3,
+        "thumb": "/images/others/process3.png",
+        "subtitle": "Step Three",
+        "title": "Test",
+        "paragraph": "Before delivering the product to the client, we thoroughly test it to ensure it meets the client's requirements and works as intended. We conduct both manual and automated testing to identify and fix any bugs or issues."
+    },
+    {
+        "id": 4,
+        "thumb": "/images/others/process4.png",
+        "subtitle": "Step four",
+        "title": "Launch",
+        "paragraph": "Once the product passes testing, we are ready to launch it. We work with the client to plan the launch, ensure all necessary systems are in place, and provide training to end-users if necessary. After launch, we continue to monitor the product's performance and provide support as needed."
+    }
+]
