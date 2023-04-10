@@ -11,7 +11,7 @@ const Nav = () => {
                     <Link to="#">Services <FaAngleDown /></Link>
                     <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/android-app-development"}>Android App Development</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/service-d+1etails/ios-application-development"}>iOS Application Development</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + "/service-details/ios-application-development"}>iOS Application Development</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/hybrid-app-development"}>Hybrid App Development</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/software-development"}>Software Development</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/managed-it-services"}>Managed IT Services</Link></li>
@@ -24,7 +24,8 @@ const Nav = () => {
                     <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/1"}>Potentials of Technology on Online Business in the Digital Age</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/2"}>Maximizing Business Potential: A Step-by-Step Guide for Developing Android App for Restaurants or Food Companies</Link></li>
-                
+                        <li><Link to={process.env.PUBLIC_URL + "/blog-details/3"}>4 Ways to Utilize Websites Across Different Business Industries</Link></li>
+
 
                     </ul>
                 </li>

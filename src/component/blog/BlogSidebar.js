@@ -35,11 +35,7 @@ const BlogSidebar = () => {
                 <h4 className="widget-title">Recent post</h4>
                 <WidgetPost />
             </div>
-            <div className="widget widget-banner-ad">
-                <Link to="#">
-                    <img src={process.env.PUBLIC_URL + "/images/banner/widget-banner.png"} alt="banner" />
-                </Link>
-            </div>
+           
         </div>
     )
 }
