@@ -46,7 +46,7 @@ const FormOne = () => {
         </div>
         <div className="form-group mb--40">
             <label>Phone</label>
-            <input type="tel" className="form-control" name="contact-phone" placeholder="+123456789" required />
+            <input type="tel" className="form-control" name="contact-phone" placeholder="(+63) 09XXXX-XXXX" required />
         </div>
         <div className="form-group">
             <button type="submit" className="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Pricing</button>

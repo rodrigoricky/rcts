@@ -81,7 +81,7 @@ const Comment = () => {
                     <div className="col-lg-6">
                         <div className="form-group">
                             <label>Phone</label>
-                            <input type="tel" className="form-control" name="Phone" placeholder="+123456789" />
+                            <input type="tel" className="form-control" name="Phone" placeholder="(+63) 09XXXX-XXXX" />
                         </div>
                     </div>
                     <div className="col-lg-6">

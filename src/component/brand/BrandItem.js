@@ -29,10 +29,10 @@ const Data = [
         image: "/images/brand/hardware.png"
     },
     {
-        image: "/images/brand/Logistics.png"
+        image: "/images/brand/logistics.png"
     },
     {
-        image: "/images/brand/Cars.png"
+        image: "/images/brand/cars.png"
     },
     {
         image: "/images/brand/taxi.png"

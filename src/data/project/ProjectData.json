@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/images/project/untitled-5.png",
+        "image": "/images/project/Untitled-5.png",
         "title": "Business and Productivity",
         "category": ["Manage daily business operations"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
@@ -21,7 +21,7 @@
     },
     {
         "id": 2,
-        "image": "/images/project/Ecommerce.png",
+        "image": "/images/project/ecommerce.png",
         "title": "eCommerce Solutions",
         "category": ["Sell products and services online"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "image": "/images/project/Productm.png",
+        "image": "/images/project/productm.png",
         "title": "Product Management",
         "category": ["Track orders and inventory"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
