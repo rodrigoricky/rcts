@@ -39,7 +39,7 @@ const AboutTwo = () => {
                     </div>
                     <div className="col-xl-5 col-lg-6 offset-xl-1">
                         <div className="contact-form-box shadow-box mb--30">
-                            <h3 className="title">Get a free Keystroke quote now</h3>
+                            <h3 className="title">Send us a message</h3>
                             <FormOne />
                         </div>
                     </div>

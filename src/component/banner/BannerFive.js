@@ -20,7 +20,7 @@ const BannerFive = () => {
                     <div className="col-lg-6 col-xl-5">
                         <div className="banner-form">
                             <div className="contact-form-box shadow-box">
-                                <h3 className="title">Get a free Keystroke quote now</h3>
+                                <h3 className="title">Send us a message</h3>
                                 <FormOne />
                             </div>
                         </div>
