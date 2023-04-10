@@ -175,7 +175,7 @@
         .banner-thumbnail {
             position: absolute;
             top: 40%;
-            left: 35%;
+            right: 0;
             z-index: 5;
             .large-thumb {
                 @media #{$laptop-device} {
