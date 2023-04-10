@@ -6,7 +6,7 @@ const BcrumbBannerOne = ({title, paragraph, styleClass, mainThumb}) => {
             <div className="container">
                 <div className="section-heading heading-left">
                     <h1 className="title h2" dangerouslySetInnerHTML={{__html: title}}></h1>
-                    <p className="p h5" dangerouslySetInnerHTML={{__html: paragraph}}></p>
+                    <p className="h5" dangerouslySetInnerHTML={{__html: paragraph}}></p>
                 </div>
                 <div className={`banner-thumbnail ${styleClass}`}>
                         <img src={process.env.PUBLIC_URL + mainThumb} alt="Illustration" />

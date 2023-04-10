@@ -91,11 +91,7 @@
         }
         p {
             width: 40%;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            text-overflow: unset;
             @media #{$md-layout} {
                 width: 100%;
             }
@@ -107,7 +103,7 @@
     .banner-thumbnail {
         position: absolute;
         right: 190px;
-        border-radius: 50px;
+        border-radius: 0px;
         padding: 20px;
         top: -60px;
         text-align: center;

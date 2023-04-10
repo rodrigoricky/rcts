@@ -105,12 +105,13 @@
     text-align: left;
     p {
         margin: 0 0 30px;
+        max-width: 100%;
     }
-    p+p {
+    p + p {
         margin: 0 0 40px;
+        max-width: 100%;
     }
 }
-
 
 // Section BG Shape
 
