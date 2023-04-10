@@ -2,31 +2,38 @@
     {
         "image": "/images/icon/android.png",
         "title": "Android App Development",
-        "description": "Build applications for mobile devices that run on Android platform for an extensive reach of users."
+        "description1": "Build applications for mobile devices that run on Android platform for an extensive reach of users.",
+        "description2": "It's a good idea to have your products and services available on a platform that the majority of people use. After all, you want to reach as many people as possible. Here are the reasons why developing an android app can be an effective tool to maximize business potential."
+
     },
     {
         "image": "/images/icon/appp.png",
         "title": "iOS Application Development",
-        "description": "Make applications for mobile devices that run on the iOS platform for your business's competitive edge."
+        "description1": "Make applications for mobile devices that run on the iOS platform for your business's competitive edge.",
+        "description2": "The apps in iOS are known for providing the best user experience, which helps businesses retain users who prefer finesse in their line of work. How can an iOS app assist? Everyone does not own an iOS device. Having an app in the App Store elevates your venture to a higher level - it's exclusive, populated by non-conservative buyers, tech-savvy individuals, and multiplies your sales potential.Here are the reasons why developing an iOS app can be an effective tool to maximize business potential."
     },
     {
         "image": "/images/icon/hybrid.png",
         "title": "Hybrid App Development",
-        "description": "Create flexible applications for both platforms on any device to upscale your game."
+        "description1": "Create flexible applications for both platforms on any device to upscale your game.",
+        "description2": "A hybrid app combines the best features of both native and web apps, offering a cost-effective solution for businesses to reach their target audience across multiple platforms."
     },
     {
         "image": "/images/icon/soft.png",
         "title": "Software Development",
-        "description": "Design computer software to simplify tasks with various functionalities."
+        "description1": "Design computer software to simplify tasks with various functionalities.",
+        "description2": "Build applications for mobile devices that run on Android platform for an extensive reach of users."
     },
     {
         "image": "/images/icon/it.png",
         "title": "Managed IT Services",
-        "description": "Optimize technological infrastructure to scale your business smoothly."
+        "description1": "Optimize technological infrastructure to scale your business smoothly.",
+        "description2": "Build applications for mobile devices that run on Android platform for an extensive reach of users."
     },
     {
         "image": "/images/icon/web.png",
         "title": "Web Development",
-        "description": "Publish websites for your business to maintain access to your customers."
+        "description1": "Publish websites for your business to maintain access to your customers.",
+        "description2": "In today's digital era, a robust web presence is essential for businesses to succeed and thrive. Web development enables businesses to create websites, web applications, and e-commerce platforms that offer engaging and interactive experiences to users, helping businesses build brand recognition, increase customer engagement, and drive growth. With the widespread use of the internet and mobile devices, web development has become more crucial than ever before in creating a strong digital footprint and reaching a global audience."
     }
 ]

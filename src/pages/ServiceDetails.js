@@ -32,8 +32,8 @@ const ServiceDetails = () => {
             <HeaderOne />
             <BcrumbBannerOne 
             title={detailsService.title}
-            paragraph ={detailsService.description}
-            mainThumb="/images/banner/appdev.png"
+            paragraph ={detailsService.description2}
+            /*mainThumb="/images/banner/appdev.png" */
             styleClass=""></BcrumbBannerOne>
             <AboutTwo />
             
