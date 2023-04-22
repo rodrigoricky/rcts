@@ -31,11 +31,10 @@ const HeaderThree = () => {
                                 <ul className="list-unstyled">
                                     <li className="header-social-link">
                                         <ul className="social-icon-list list-unstyled">
-                                            <li><a href="https://facebook.com/"><FaFacebookF /></a></li>
+                                            <li><a href="https://facebook.com/ricreatesofficial"><FaFacebookF /></a></li>
                                             <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                             <li><a href="https://www.linkedin.com/"><FaLinkedin /></a></li>
-                                            <li><a href="https://www.behance.net/"><FaBehance /></a></li>
-                                        </ul>
+                                         </ul>
                                     </li>
 
                                     <li className="sidemenu-btn">

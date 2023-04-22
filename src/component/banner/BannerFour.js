@@ -26,7 +26,7 @@ const BannerFour = () => {
                 <div className="banner-social">
                 <   div className="border-line" />
                     <ul className="list-unstyled social-icon">
-                        <li><a href="https://facebook.com/"><FaFacebookF /> Facebook</a></li>
+                        <li><a href="https://facebook.com/ricreatesofficial"><FaFacebookF /> Facebook</a></li>
                         <li><a href="https://twitter.com/"><FaTwitter /> twitter</a></li>
                         <li><a href="https://www.linkedin.com/"><FaLinkedinIn /> Linkedin</a></li>
                     </ul>

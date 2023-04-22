@@ -20,7 +20,7 @@ const TestimonialTwo = () => {
                 <div className="axil-followers">
                     <ul className="followers-list list-unstyled">
                         <li className="dribble">
-                            <a href="https://facebook.com/">
+                            <a href="https://facebook.com/ricreatesofficial">
                                 <span className="icon"><FaDribbble /></span>
                                 <span>60k Followers</span>
                             </a>

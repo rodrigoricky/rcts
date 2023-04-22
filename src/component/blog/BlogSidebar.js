@@ -22,7 +22,7 @@ const BlogSidebar = () => {
                 <div className="blog-share">
                     <h5 className="title">Follow:</h5>
                     <ul className="social-list list-unstyled">
-                        <li><a href="https://facebook.com/"><FaFacebookF /></a></li>
+                        <li><a href="https://facebook.com/ricreatesofficial"><FaFacebookF /></a></li>
                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                         <li><a href="https://www.instagram.com/"><FaInstagram /></a></li>
                         <li><a href="https://www.linkedin.com/"><FaLinkedinIn /></a></li>

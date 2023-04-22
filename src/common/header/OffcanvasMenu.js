@@ -29,7 +29,7 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                                 <div className="contact-social-share">
                                     <ul className="social-share list-unstyled">
                                         <li>
-                                            <a href="https://facebook.com/"><FaFacebookF /></a>
+                                            <a href="https://facebook.com/ricreatesofficial"><FaFacebookF /></a>
                                         </li>
 
                                         <li>

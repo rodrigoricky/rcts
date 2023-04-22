@@ -16,8 +16,7 @@ const SplashFooter = () => {
                         </div>
                         <div className="col-lg-2">
                         <ul className="footer-social list-unstyled">
-                            <li><a href="https://www.facebook.com/axilthemes"><FaFacebookF /></a></li>
-                            <li><a href="https://dribbble.com/axilweb/"><FaDribbble /></a></li>
+                            <li><a href="https://www.facebook.com/ricreatesofficial"><FaFacebookF /></a></li>
                         </ul>
                         </div>
                         <div className="col-lg-5">

@@ -14,7 +14,7 @@ const FooterOne = ({parentClass}) => {
                 <div className="footer-top">
                     <div className="footer-social-link">
                         <ul className="list-unstyled">
-                            <li><Link to="https://facebook.com/"><FaFacebookF /></Link></li>
+                            <li><Link to="https://facebook.com/ricreatesofficial"><FaFacebookF /></Link></li>
                             <li><Link to="https://twitter.com/"><FaTwitter /></Link></li>
                             <li><Link to="https://www.pinterest.com/"><FaPinterestP /></Link></li>
                             <li><Link to="https://www.linkedin.com/"><FaLinkedin /></Link></li>

@@ -67,7 +67,7 @@ const Testimonials = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="review-site-logo">
-                                    <a href="https://www.facebook.com/"><img src={process.env.PUBLIC_URL + "/images/icon/fb.png"} alt="Facebook" /></a>
+                                    <a href="https://www.facebook.com/ricreatesofficial"><img src={process.env.PUBLIC_URL + "/images/icon/fb.png"} alt="Facebook" /></a>
                                 </div>
                             </div>
                         </div>
