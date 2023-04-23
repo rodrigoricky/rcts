@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import Alert from 'react-bootstrap/Alert';
+import Mailgun from 'mailgun-js';
 
 const Result = () => {
     return (
@@ -19,20 +20,34 @@ const FormOne = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_yj5dgzp', 'template_hfduayo', form.current, 'WLENsTkBytC0yvItS')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
+        const mg = Mailgun({
+            apiKey: 'key-e37bcedd9740a7db757a929851792bb7',
+            domain: 'www.ricreates.com',
           });
+      
+          const data = {
+            from: 'Ricreates <customercare@ricreates.com>',
+            to: e.target.elements['contact-email'].value,
+            subject: '🛠️ On-development Update',
+            text: 'Greetings!\n\nThis is an automated email to inform you that our website is currently under development. We apologize for any inconvenience this may cause.\n\nWe will be sending out further updates to this email address as we make progress on the website. In the meantime, if you have any questions or feedback, please do not hesitate to contact us.\n\nThank you for your patience and understanding.\n\nSincerely,\n\nRicreates'
+          };
+      
+          mg.messages().send(data, (error, body) => {
+            if (error) {
+              console.log(error);
+            } else {
+              console.log(body);
+            }
+          });
+      
           form.current.reset();
           showresult(true);
-      };
-
+        };
+      
         setTimeout(() => {
-            showresult(false);
+          showresult(false);
         }, 5000);
-
+      
 
     return (
         <form ref={form} onSubmit={sendEmail} className="axil-contact-form">

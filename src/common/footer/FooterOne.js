@@ -1,12 +1,58 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedin, FaInstagram, FaVimeoV, FaDribbble, FaBehance, FaEnvelopeOpen } from "react-icons/fa";
 import ServiceData from "../../data/service/ServiceMain.json";
 import { slugify } from '../../utils';
-
+import Mailgun from 'mailgun-js';
+import Alert from 'react-bootstrap/Alert';
 const getServiceData = ServiceData;
 
+const Result = () => {
+    return (
+      <Alert variant="success" className="success-msg">
+        Your Message has been successfully sent.
+      </Alert>
+    );
+  };
+  
 const FooterOne = ({parentClass}) => {
+
+    const form = useRef();
+  
+    const [result, showresult] = useState(false);
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      const mg = Mailgun({
+        apiKey: 'key-e37bcedd9740a7db757a929851792bb7',
+        domain: 'www.ricreates.com',
+      });
+  
+      const data = {
+        from: 'Ricreates <customercare@ricreates.com>',
+        to: e.target.elements['contact-email'].value,
+        subject: '🛠️ On-development Update',
+        text: 'Greetings!\n\nThis is an automated email to inform you that our website is currently under development. We apologize for any inconvenience this may cause.\n\nWe will be sending out further updates to this email address as we make progress on the website. In the meantime, if you have any questions or feedback, please do not hesitate to contact us.\n\nThank you for your patience and understanding.\n\nSincerely,\n\nRicreates'
+      };
+  
+      mg.messages().send(data, (error, body) => {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log(body);
+        }
+      });
+  
+      form.current.reset();
+      showresult(true);
+    };
+  
+    setTimeout(() => {
+      showresult(false);
+    }, 5000);
+
+
     
     return (
         <footer className={`footer-area ${parentClass}`}>
@@ -14,7 +60,7 @@ const FooterOne = ({parentClass}) => {
                 <div className="footer-top">
                     <div className="footer-social-link">
                         <ul className="list-unstyled">
-                            <li><Link to="https://facebook.com/ricreatesofficial"><FaFacebookF /></Link></li>
+                            <li><a href='https://facebook.com/ricreatesofficial'><FaFacebookF /></a></li>
                             <li><Link to="https://twitter.com/"><FaTwitter /></Link></li>
                             <li><Link to="https://www.pinterest.com/"><FaPinterestP /></Link></li>
                             <li><Link to="https://www.linkedin.com/"><FaLinkedin /></Link></li>
@@ -32,13 +78,15 @@ const FooterOne = ({parentClass}) => {
                                 <div className="footer-newsletter">
                                     <h2 className="title">Get in touch!</h2>
                                     <p>Subscribe to our newsletter now for FREE to get the latest news and updates on our innovative technnologies</p>
-                                    <form>
+                                    <form onSubmit={sendEmail} className="axil-contact-form" ref={form}>
                                         <div className="input-group">
                                             <span className="mail-icon"><FaEnvelopeOpen /> </span>
-                                            <input type="email" className="form-control" placeholder="Email address" />
+                                            <input type="email" className="form-control" name="contact-email" placeholder="Email address" />
                                             <button className="subscribe-btn" type="submit">Subscribe</button>
+                                            <div className="form-group">{result ? <Result /> : null}</div>
+
                                         </div>
-                                    </form>
+                                    </form >
                                 </div>
                             </div>
                         </div>
@@ -96,7 +144,9 @@ const FooterOne = ({parentClass}) => {
                 </div>
             </div>
         </footer>
+      
     )
 }
+
 
 export default FooterOne;

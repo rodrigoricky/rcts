@@ -95,18 +95,7 @@ const BlogDetails = () => {
                                             }
 
                                         </div>
-                                        <div className="author">
-                                            <div className="author-thumb">
-                                                <img src={`${process.env.PUBLIC_URL}/${detailsBlog.author_avatar}`} alt="Blog Author" />
-                                            </div>
-                                            <div className="info">
-                                                <h6 className="author-name">{detailsBlog.author_name}</h6>
-                                                <ul className="blog-meta list-unstyled">
-                                                    <li>{detailsBlog.post_date}</li>
-                                                    <li>{detailsBlog.read_time}</li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                      
                                         {detailsBlog.body.map((data, i) =>(
                                             <div key={i} dangerouslySetInnerHTML={{__html: data}}></div>
                                             
@@ -124,8 +113,6 @@ const BlogDetails = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <BlogAuthor data={detailsBlog} />
-                                <Comment />
 
                             </div>
                             <div className="col-lg-4">
