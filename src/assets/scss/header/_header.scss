@@ -552,7 +552,7 @@
 
 // Offcanvas Menu
 .header-offcanvasmenu {
-    width:40vw !important;
+    width:45vw !important;
     min-width: 200px;
     background-color: var(--color-white);
     transition: all 0.8s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -690,7 +690,7 @@
                 }
             }
             .address {
-                margin-bottom: 40px;
+                margin-bottom: 50px;
                 @media #{$md-layout} {
                     margin-bottom: 25px;    
                 }

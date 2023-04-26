@@ -1,6 +1,6 @@
 import React from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaBehance, FaPhone, FaFax } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaBehance, FaMailBulk, FaFax } from "react-icons/fa";
 
 
 const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
@@ -16,12 +16,11 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                             <div className="contact-inner">
                                 <address className="address">
                                     <span className="title">Contact Information</span>
-                                    <p>Theodore Lowe, Ap #867-859 <br /> Sit Rd, Azusa New York</p>
+                                    <p>Davao Del Norte, Philippines</p>
                                 </address>
                                 <address className="address">
-                                    <span className="title">We're Available 24/7. Call Now.</span>
-                                    <a href="tel:8884562790" className="tel"><FaPhone /> (888) 456-2790</a>
-                                    <a href="tel:12125553333" className="tel"><FaFax /> (121) 255-53333</a>
+                                    <span className="title">We're Available 24/7. Email us.</span>
+                                    <a href="mailto:customercare@ricreates.com"><FaMailBulk /> customercare@ricreates.com</a>
                                 </address>
                             </div>
                             <div className="contact-inner">

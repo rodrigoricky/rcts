@@ -4,31 +4,24 @@ import TrackVisibility from 'react-on-screen';
 
 const Data = [
     {  
-        id: 1,
+        id: 2,
         light_icon: "/images/icon/icon-7.png",
         dark_icon: "/images/icon/icon-10.png",
-        countNum: 15,
+        countNum: 5,
         text: "Client Rating"
     },
     {  
-        id: 2,
+        id: 3,
         light_icon: "/images/icon/icon-8.png",
         dark_icon: "/images/icon/icon-11.png",
-        countNum: 360,
+        countNum: 5,
         text: "Projects deliverd"
-    },
-    {  
-        id: 3,
-        light_icon: "/images/icon/icon-9.png",
-        dark_icon: "/images/icon/icon-12.png",
-        countNum: 600,
-        text: "Specialist"
     },
     {  
         id: 4,
         light_icon: "/images/icon/apple.png",
         dark_icon: "/images/icon/apple-black.png",
-        countNum: 64,
+        countNum: 3,
         text: "Years of operation"
     }
    
