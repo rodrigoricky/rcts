@@ -15,15 +15,7 @@ const TestimonialItem = ({colSize, itemShow}) => {
                             <img src={process.env.PUBLIC_URL + data.from} alt="Yelp" />
                         </span>
                         <p>{data.description}</p>
-                        <div className="author-info">
-                            <div className="thumb">
-                                <img src={process.env.PUBLIC_URL + data.authorimg} alt="Google Review" />
-                            </div>
-                            <div className="content">
-                                <span className="name">{data.authorname}</span>
-                                <span className="designation">{data.authordesig}</span>
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
             ))}
