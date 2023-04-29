@@ -21,7 +21,7 @@ const Data = [
         id: 4,
         light_icon: "/images/icon/apple.png",
         dark_icon: "/images/icon/apple-black.png",
-        countNum: 3,
+        countNum: 1,
         text: "Years of operation"
     }
    
