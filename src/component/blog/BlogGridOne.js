@@ -61,9 +61,6 @@ const BlogGridOne = () => {
                         <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>{data.title}</Link>
                     </h3>
                     <div className="author">
-                        <div className="author-thumb">
-                            <img src={`${process.env.PUBLIC_URL}/${data.author_avatar}`} alt="Blog Author" />
-                        </div>
                         <div className="info">
                             <h6 className="author-name">
                                 <Link to={process.env.PUBLIC_URL + `/archive/${slugify(data.author_name)}`}>{data.author_name}</Link>
