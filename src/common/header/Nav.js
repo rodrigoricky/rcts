@@ -19,16 +19,6 @@ const Nav = () => {
 
                     </ul>
                 </li>
-                <li className="menu-item-has-children">
-                    <Link to="#">Blog <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
-                        <li><Link to={process.env.PUBLIC_URL + "/blog-details/1"}>Potentials of Technology on Online Business in the Digital Age</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/blog-details/2"}>Maximizing Business Potential: A Step-by-Step Guide for Developing Android App for Restaurants or Food Companies</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/blog-details/3"}>4 Ways to Utilize Websites Across Different Business Industries</Link></li>
-
-
-                    </ul>
-                </li>
                 {/*
                 <li className="menu-item-has-children">
                    

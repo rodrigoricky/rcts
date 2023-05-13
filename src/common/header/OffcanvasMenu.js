@@ -30,16 +30,6 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                                         <li>
                                             <a href="https://facebook.com/ricreatesofficial"><FaFacebookF /></a>
                                         </li>
-
-                                        <li>
-                                            <a href="https://twitter.com/"><FaTwitter /></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.behance.net/"><FaBehance /></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/"><FaLinkedinIn /></a>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
