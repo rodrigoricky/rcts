@@ -70,47 +70,13 @@ const BlogDetails = () => {
                             <div className="col-lg-8">
                                 <div className="single-blog">
                                     <div className="single-blog-content blog-grid">
-                                        <div className="post-thumbnail">
-                                            {
-                                                Array.isArray(detailsBlog.large_thumb) ? 
-                                                <Slider {...slideSettings} className="slick-arrow-nav">
-                                                    {detailsBlog.large_thumb.map((data, index) => (
-                                                        <div className="slide-item" key={index}>
-                                                            <img src={`${process.env.PUBLIC_URL}/${data}`} alt="Blog" />
-                                                        </div>
-                                                    ))}
-                                                    
-                                                </Slider> 
-                                                : <img src={`${process.env.PUBLIC_URL}/${detailsBlog.large_thumb}`} alt="Blog" />
-                                            }
-                                           
-                                            {detailsBlog.format === "video" ?
-                                                <>
-                                                    <div className="popup-video">
-                                                        <button className="play-btn" onClick={ () => setToggler(!toggler) }><FaPlay /></button>
-                                                    </div> 
-                                                    <FsLightbox toggler={ toggler } sources={ ['https://www.youtube.com/watch?v=XoVT8xlNBRs'] }/>
-                                                </> 
-                                                : ""
-                                            }
-
-                                        </div>
-                                      
+                                       
                                         {detailsBlog.body.map((data, i) =>(
                                             <div key={i} dangerouslySetInnerHTML={{__html: data}}></div>
                                             
                                         ))}
 
-                                        <div className="row">
-                                            {detailsBlog.features_img.map((img, i) => (
-                                                <div className="col-6" key={i}>
-                                                    <div className="featured-img">
-                                                        <img src={process.env.PUBLIC_URL + img} alt="Blog" />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                            
-                                        </div>
+                                        
                                     </div>
                                 </div>
 
