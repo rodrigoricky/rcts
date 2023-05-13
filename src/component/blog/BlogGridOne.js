@@ -71,30 +71,7 @@ const BlogGridOne = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="post-thumbnail">
-                        {
-                            Array.isArray(data.large_thumb) ? 
-                            <Slider {...slideSettings} className="slick-arrow-nav">
-                                {data.large_thumb.map((data, index) => (
-                                    <div className="slide-item" key={index}>
-                                        <img src={`${process.env.PUBLIC_URL}/${data}`} alt="Blog" />
-                                    </div>
-                                ))}
-                                
-                            </Slider> 
-                            : <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}><img src={`${process.env.PUBLIC_URL}/${data.large_thumb}`} alt="Blog" /></Link>
-                        }
-                        
-                        {data.format === "video" ?
-                        <>
-                            <div className="popup-video">
-                                <button className="play-btn" onClick={ () => setToggler(!toggler) }><FaPlay /></button>
-                            </div> 
-                            <FsLightbox toggler={ toggler } sources={ ['https://youtu.be/XoVT8xlNBRsM'] }/>
-                        </> 
-                        : ""
-                        }  
-                    </div>
+                   
                     <p>{data.excerpt}</p>
                     <Link className="axil-btn btn-borderd btn-large" to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>Read More</Link>
                 </div>
