@@ -19,6 +19,10 @@ const Nav = () => {
 
                     </ul>
                 </li>
+
+                <li className="menu-item-has-children">
+                    <Link to="/blog-grid">Blog</Link>
+                </li>
                 {/*
                 <li className="menu-item-has-children">
                    
