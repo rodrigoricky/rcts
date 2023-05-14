@@ -38,7 +38,7 @@ const Contact = () => {
                             <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                                 <h4 className="title">Facebook</h4>
                                 <p>You can also view our Facebook page for more information.</p>
-                                <h4 className="phone-number"><a href="tel:1234567890">Ricreates</a></h4>
+                                <h4 className="phone-number"><a href="https://facebook.com/ricreatesofficial">Ricreates</a></h4>
                             </div>
                             
                         </div>
