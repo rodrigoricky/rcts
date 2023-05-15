@@ -22,13 +22,13 @@
         "image": "/images/icon/soft.png",
         "title": "Software Development",
         "description1": "Design computer software to simplify tasks with various functionalities.",
-        "description2": "Build applications for mobile devices that run on Android platform for an extensive reach of users."
+        "description2": "In an increasingly digital world, software serves as the backbone of operations, enabling businesses to streamline processes, enhance productivity, and deliver exceptional customer experiences. Custom software solutions tailored to specific business needs provide a competitive edge by automating tasks, improving efficiency, and optimizing workflows. Software development opens up avenues for innovation, allowing businesses to create new products, services, and revenue streams."
     },
     {
         "image": "/images/icon/it.png",
         "title": "Managed IT Services",
         "description1": "Optimize technological infrastructure to scale your business smoothly.",
-        "description2": "Build applications for mobile devices that run on Android platform for an extensive reach of users."
+        "description2": "Managed IT services are essential for businesses as they provide expert monitoring, maintenance, and security for IT infrastructure. This enables businesses to enhance productivity, minimize downtime, and stay ahead of potential threats. By outsourcing IT management, businesses can focus on core operations, reduce costs, and leverage the latest technologies for a competitive edge."
     },
     {
         "image": "/images/icon/web.png",
