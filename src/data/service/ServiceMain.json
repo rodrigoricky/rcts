@@ -3,37 +3,43 @@
         "image": "/images/icon/android.png",
         "title": "Android App Development",
         "description1": "Build applications for mobile devices that run on Android platform for an extensive reach of users.",
-        "description2": "It's a good idea to have your products and services available on a platform that the majority of people use. After all, you want to reach as many people as possible. Here are the reasons why developing an android app can be an effective tool to maximize business potential."
+        "description2": "It's a good idea to have your products and services available on a platform that the majority of people use. After all, you want to reach as many people as possible. Here are the reasons why developing an android app can be an effective tool to maximize business potential.",
+        "whatwedo": "As a leading software and app development company, we help businesses stand out in the market and engage with their customers effectively by developing high-performance, reliable, and user-friendly Android apps. Our team of experts provides end-to-end solutions to help you create a high-quality app that meets your unique needs and requirements"
 
     },
     {
         "image": "/images/icon/appp.png",
         "title": "iOS Application Development",
         "description1": "Make applications for mobile devices that run on the iOS platform for your business's competitive edge.",
-        "description2": "The apps in iOS are known for providing the best user experience, which helps businesses retain users who prefer finesse in their line of work. How can an iOS app assist? Everyone does not own an iOS device. Having an app in the App Store elevates your venture to a higher level - it's exclusive, populated by non-conservative buyers, tech-savvy individuals, and multiplies your sales potential.Here are the reasons why developing an iOS app can be an effective tool to maximize business potential."
+        "description2": "The apps in iOS are known for providing the best user experience, which helps businesses retain users who prefer finesse in their line of work. How can an iOS app assist? Everyone does not own an iOS device. Having an app in the App Store elevates your venture to a higher level - it's exclusive, populated by non-conservative buyers, tech-savvy individuals, and multiplies your sales potential.Here are the reasons why developing an iOS app can be an effective tool to maximize business potential.",
+        "whatwedo": "At Ricreates, we provide customized iOS app development services to businesses of all sizes. Our team of experts offers end-to-end solutions to create high-quality apps that meet your unique requirements and business goals. We specialize in developing user-friendly, reliable, and innovative iOS apps that enhance your brand recognition and deliver a superior user experience."
     },
     {
         "image": "/images/icon/hybrid.png",
         "title": "Hybrid App Development",
         "description1": "Create flexible applications for both platforms on any device to upscale your game.",
-        "description2": "A hybrid app combines the best features of both native and web apps, offering a cost-effective solution for businesses to reach their target audience across multiple platforms."
+        "description2": "A hybrid app combines the best features of both native and web apps, offering a cost-effective solution for businesses to reach their target audience across multiple platforms.",
+        "whatwedo": "Increase productivity, streamline operations, and manage daily business operations and tasks more efficiently. These apps can help business owners organize schedules, manage projects, collaborate with team members, automate time-consuming tasks, and focus on growing their business on desktop computers or mobile devices. These are designed to help users manage their workloads more effectively."
     },
     {
         "image": "/images/icon/soft.png",
         "title": "Software Development",
         "description1": "Design computer software to simplify tasks with various functionalities.",
-        "description2": "In an increasingly digital world, software serves as the backbone of operations, enabling businesses to streamline processes, enhance productivity, and deliver exceptional customer experiences. Custom software solutions tailored to specific business needs provide a competitive edge by automating tasks, improving efficiency, and optimizing workflows. Software development opens up avenues for innovation, allowing businesses to create new products, services, and revenue streams."
+        "description2": "In an increasingly digital world, software serves as the backbone of operations, enabling businesses to streamline processes, enhance productivity, and deliver exceptional customer experiences. Custom software solutions tailored to specific business needs provide a competitive edge by automating tasks, improving efficiency, and optimizing workflows. Software development opens up avenues for innovation, allowing businesses to create new products, services, and revenue streams.",
+        "whatwedo": "Increase productivity, streamline operations, and manage daily business operations and tasks more efficiently. These apps can help business owners organize schedules, manage projects, collaborate with team members, automate time-consuming tasks, and focus on growing their business on desktop computers or mobile devices. These are designed to help users manage their workloads more effectively."
     },
     {
         "image": "/images/icon/it.png",
         "title": "Managed IT Services",
         "description1": "Optimize technological infrastructure to scale your business smoothly.",
-        "description2": "Managed IT services are essential for businesses as they provide expert monitoring, maintenance, and security for IT infrastructure. This enables businesses to enhance productivity, minimize downtime, and stay ahead of potential threats. By outsourcing IT management, businesses can focus on core operations, reduce costs, and leverage the latest technologies for a competitive edge."
+        "description2": "Managed IT services are essential for businesses as they provide expert monitoring, maintenance, and security for IT infrastructure. This enables businesses to enhance productivity, minimize downtime, and stay ahead of potential threats. By outsourcing IT management, businesses can focus on core operations, reduce costs, and leverage the latest technologies for a competitive edge.",
+        "whatwedo": "Increase productivity, streamline operations, and manage daily business operations and tasks more efficiently. These apps can help business owners organize schedules, manage projects, collaborate with team members, automate time-consuming tasks, and focus on growing their business on desktop computers or mobile devices. These are designed to help users manage their workloads more effectively. "
     },
     {
         "image": "/images/icon/web.png",
         "title": "Web Development",
         "description1": "Publish websites for your business to maintain access to your customers.",
-        "description2": "In today's digital era, a robust web presence is essential for businesses to succeed and thrive. Web development enables businesses to create websites, web applications, and e-commerce platforms that offer engaging and interactive experiences to users, helping businesses build brand recognition, increase customer engagement, and drive growth. With the widespread use of the internet and mobile devices, web development has become more crucial than ever before in creating a strong digital footprint and reaching a global audience."
+        "description2": "In today's digital era, a robust web presence is essential for businesses to succeed and thrive. Web development enables businesses to create websites, web applications, and e-commerce platforms that offer engaging and interactive experiences to users, helping businesses build brand recognition, increase customer engagement, and drive growth. With the widespread use of the internet and mobile devices, web development has become more crucial than ever before in creating a strong digital footprint and reaching a global audience.",
+        "whatwedo": "At Ricreates, we offer customized web development services that cater to the specific needs and goals of our clients. Our team of experienced developers is proficient in developing top-notch websites and web applications that provide a seamless user experience and drive business growth. From conceptualization to implementation, we work with you to create a website that aligns with your brand identity, caters to your target audience, and enhances your online presence.\n\nOur expertise in web development includes website design, e-commerce development, custom web applications, and content management systems. With our proven track record of delivering successful web development projects, we pride ourselves on providing timely and reliable solutions that exceed our clients' expectations."
     }
 ]

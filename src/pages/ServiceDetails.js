@@ -35,7 +35,8 @@ const ServiceDetails = () => {
             paragraph ={detailsService.description2}
             /*mainThumb="/images/banner/appdev.png" */
             styleClass=""></BcrumbBannerOne>
-            <AboutTwo />
+
+            <AboutTwo service={detailsService.title} wtd={detailsService.whatwedo} />
             
             <ProcessOne />
 
