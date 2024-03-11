@@ -12,7 +12,7 @@ const BannerOne = () => {
                         <div className="banner-content">
                             <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}>
                                 <h1 className="title">Efficiency,  Productivity, and Growth with our Technology.</h1>
-                                <span className="subtitle">Get the best solutions custom-tailored for your digital needs.</span>
+                                <span className="subtitle">Get the best solutions custom-tailored for your digital needs. elara. rkyrdrgo.</span>
                                 <Link to={process.env.PUBLIC_URL + "/contact"} className="axil-btn btn-fill-primary btn-large">Get Started</Link>
                             </AnimationOnScroll>
                         </div>
